@@ -1,116 +1,55 @@
----
-layout: default
----
+# Site settings
+title: Your Cybersecurity Portfolio
+description: A vibrant showcase of my cybersecurity projects, skills, and achievements.
 
+## Build settings
+- **Theme:** Choose a theme for your GitHub Pages site
+- **Markdown:** kramdown
+- **Exclude:**
+  - Gemfile
+  - Gemfile.lock
+- **Plugins:**
+  - jekyll-seo-tag
+  - jekyll-feed
 
+## Permalinks
+Permalink: /:title/
 
-# Hello! Welcome to my Page!
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Customize navigation links
+- **Home:** /
+- **Projects:** /projects
+- **Blog:** /blog
+- **Contact:** /contact
 
-## Header 2
+## SEO
+- **Name:** Your Name
+- **Social:**
+  - LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)
+  - Twitter: [Your Twitter Profile](https://twitter.com/your-profile)
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Analytics (Optional)
+- **Google Analytics:** UA-XXXXXXXXX-X # Your Google Analytics Tracking ID
 
-### Header 3
+## GitHub Repository
+- **Repository URL:** [Your GitHub Repository](https://github.com/your-username/your-repo)
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## Customize footer
+- **Links:**
+  - Privacy Policy: /privacy-policy
+  - Terms of Service: /terms-of-service
+  - Accessibility Statement: /accessibility-statement
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## Customization options
+- **Logo:** /assets/images/logo.png # Path to your logo image
+- **Favicon:** /assets/images/favicon.ico # Path to your favicon
 
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+## Styling options
+- **Colors:**
+  - Primary: "#007bff" # Change to your preferred primary color
+  - Secondary: "#6c757d" # Change to your preferred secondary color
+  - Background: "#f8f9fa" # Change to your preferred background color
+  - Text: "#343a40" # Change to your preferred text color
+- **Fonts:**
+  - Heading: Arial, sans-serif # Change to your preferred font for headings
+  - Body: Roboto, sans-serif # Change to your preferred font for body text
+  - _Additional styling options can be added as needed_
